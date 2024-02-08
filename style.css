@@ -1,0 +1,101 @@
+.header{
+    background: #296fa7;
+    width: 100%;
+    min-height: 100px;
+    box-shadow: 0 1px #3d8cbe;
+    border-bottom: 1px solid #216c9c;
+    
+    top: 0px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-image: url(/imgs/sprites.png);
+    background-repeat: no-repeat;
+    background-size: 850px;
+   
+}
+
+.main{
+    background-image: url(/imgs/banner-background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 400px;
+}
+.cadastro {
+    margin-right: 20px;
+    width: 300px;
+    height: 180px;
+    border-bottom: 1px solid gray;
+    margin-top: 70px;
+}
+
+.login {
+    margin: 30px 70px 30px 10px;
+    width: 322px;
+    height: 340px;
+    background-color: #C3D5E6;
+    border-radius: 20px;
+    border: 1px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    transition: all 0.5s ease;
+}
+.conteudo1{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.conteudo2{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.conteudo3{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.conteudo4{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.conteudo5{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.footer{
+    display: flex;
+   
+    flex-direction: row;
+}
+.contato{
+    text-align: left; 
+}
+.menu-footer{ 
+    text-align: right;
+    
+}
+.menu-footer ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-footer li{
+    list-style: none;
+    cursor: pointer;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
