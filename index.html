@@ -11,9 +11,12 @@
 
     </div>
     <div class="main">
+        <div class= "espaco">
+
+        </div>
         <div class="cadastro">
             <h3>CADASTRE-SE </h3>
-            <br>
+            
             <p>
                 Primeiro acesso ao Internet Banking Caixa?
              Cadastre sua conta e crie seu usuário.
@@ -31,20 +34,20 @@
            <h3>INTERNET BANKING CAIXA </h3> 
 
            
-           <label for="usuario">USUÁRIO:</label><br>
-           <input type="Usuario">
+           <label for="usuario" class="user">Usuário:</label><br>
+           <input type="Usuario" class="user-entry">
 
             <div>
-                <input type="checkbox" name="tp-conta" checked>
-                <label value="PF" selected>Pessoa Física</label>
+                <input type="radio" name="tp-conta" checked>
+                <label class="pf">Pessoa Física</label>
             </div>
             <div>
-                <input type="checkbox" name="tp-conta"> 
-                <label value="PJ">Pessoa Jurídica</label>
+                <input type="radio" name="tp-conta"> 
+                <label class="pj">Pessoa Jurídica</label>
             </div>
             <div>
-                <input type="checkbox" name="tp-conta">
-                <label value="GOV">Governo</label>
+                <input type="radio" name="tp-conta">
+                <label class="gov">Governo</label>
             </div>
             
        <div>
@@ -57,25 +60,24 @@
         <div class="menu">
 
             <ul>
-                <li id="item1"  tabindex="15"> SAIBA COMO USAR</li>
-                <li id="item2"   tabindex="16"> ACESSIBILIDADE</li>
-                <li id="item3"   tabindex="17"> CADASTRO DE COMPUTADORES</li>
-                <li id="item4"   tabindex="18"> SENHA E USUÁRIO</li>
-                <li id="item5"   tabindex="19"> PERGUNTAS FREQUENTES</li>
+                <li id="item1"  tabindex="15">  <a href="#item1">SAIBA COMO USAR </a></li>
+                <li id="item2"   tabindex="16"> <a href="#item2">ACESSIBILIDADE </a></li>
+                <li id="item3"   tabindex="17"> <a href="#item3">CADASTRO DE COMPUTADORES </a></li>
+                <li id="item4"   tabindex="18"> <a href="#item4">SENHA E USUÁRIO </a></li>
+                <li id="item5"   tabindex="19"> <a href="#item5">PERGUNTAS FREQUENTES</a></li>
             </ul>
 
         </div>
-        <div class="conteudo1">
-            SAIBA COMO USAR
-
+        <div class="conteudo1" id="item1">
+            <h1>SAIBA COMO USAR </h1>
             Utilizar o Internet Banking CAIXA é rápido e prático! 
             Clique aqui para entender como funciona.
 
         </div>
-        <div class="conteudo2">
+        <div class="conteudo2" id="item2">
 
-            ACESSIBILIDADE
-
+           <h1> ACESSIBILIDADE</h1> 
+            
             A CAIXA pratica a cidadania também no Internet Banking CAIXA,
             onde os clientes com deficiência
             e/ou limitações visuais encontram uma plataforma 
@@ -83,10 +85,10 @@
             Conheça.
 
         </div>
-        <div class="conteudo3">
+        <div class="conteudo3" id="item3">
 
-            CADASTRO DE COMPUTADORES
-
+           <h1>CADASTRO DE COMPUTADORES </h1> 
+           
             Para efetuar transações financeiras a partir do internet banking você precisa cadastrar o dispositivo a ser utilizado.
 
             Chamamos de dispositivo todo equipamento utilizado para acesso ao Internet Banking Caixa como computador, tablet e smartphone. Ao selecionar algum serviço que exija o uso da assinatura eletrônica (por exemplo pagamento ou transferência), você será direcionado para o cadastramento do dispositivo que está utilizando. Você deverá escolher um apelido para o equipamento e o tempo que deseja mantê-lo cadastrado.
@@ -96,10 +98,10 @@
             Clique aqui e saiba mais sobre cadastramento do seu dispositivo.
 
         </div>
-        <div class="conteudo4">
+        <div class="conteudo4" id="item4">
 
-            SENHA E USUÁRIO
-
+           <h1> SENHA E USUÁRIO</h1> 
+          
             Para movimentar sua conta pelo Internet Banking será necessário criar um usuário, uma senha internet e uma assinatura eletrônica.
 
             Caso este seja seu primeiro acesso, ou tenha esquecido, ou bloqueado seu usuário ou senha internet, será necessário um novo cadastro clicando no botão CADASTRAR.
@@ -111,30 +113,36 @@
             Clique aqui para mais detalhes sobre usuário, senha internet e assinatura eletrônica.
 
         </div>
-        <div class="conteudo5">
+        <div class="conteudo5" id="item5">
 
-            PERGUNTAS FREQUENTES
-
+            <h1> PERGUNTAS FREQUENTES</h1>
+         
             Caso tenha alguma dúvida sobre algum procedimento, clique aqui para acesso as dúvidas mais freqüentes.
 
         </div>  
 
     </div>
-    <div class="footeer">
+    <div class="footer">
 
         <div class="contato">
             Alô CAIXA
+            <br>
             4004 0104(Capitais) ou 
+            <br>
             800 104 0104 (Demais regiões)
 
         </div>
 
         <div class="menu-footer">
             <ul>
-                <li>Segurança</li>
+                <li>Segurança</li> 
+
                 <li>Rede de Atendimento</li>
+
                 <li>Ajuda</li>
+
                 <li>Termos e Contratos</li>
+
             </ul>
 
         </div>
