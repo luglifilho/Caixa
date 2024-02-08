@@ -4,7 +4,7 @@ body{
 }.header{
     background: #296fa7;
     width: 100vw;
-    min-height: 100px;
+    min-height: 70px;
     box-shadow: 0 1px #3d8cbe;
     border-bottom: 1px solid #216c9c;
     top: 0px;
